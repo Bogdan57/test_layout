@@ -1,45 +1,45 @@
+
 body {
-    width: 100%;
-    margin: 0;
-    background-color: #e0dccd;
+  width: 1255px;
+  margin: 0;
+  background-color: #e0dccd;
+  height: 4400px;
 } 
 
 @font-face {
   font-family: "Raleway - Extra Bold";
-  src: url(./raleway-extrabold_[allfont.ru].ttf);
+  src: url(font/raleway-extrabold_[allfont.ru].ttf);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Didot LH";
-  src: url(./DidotLH_Bold.ttf);
+  src: url(font/DidotLH_Bold.ttf);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Myriad Pro";
-  src: url(./Myriad-Pro_31655.ttf);
+  src: url(font/Myriad-Pro_31655.ttf);
   font-weight: 400;
   font-style: normal;
 }
 
 .header {
   text-align: center;
-  background-image: url("./image.png");
+  background-image: url("img/image.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-color: #000000;
-  width: 85%;
-  height: 806px;
+  width: 120%;
+  height: 703px;
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-left: 150px;
-  margin-top: 50px;
-  
+  left: 15%;
 }
 
 .header::after {
@@ -55,24 +55,16 @@ body {
 
 .container {
   width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
   z-index: 2;
   position: relative;
 }
 
-.container-top {
-
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .header-logo {
+  position: absolute;
   width: 231px;
   height: 48px;
-  margin-top: 40px;
-  margin-right: 95%;
+  left: 10%;
+  top: 10%;
 }
 
 .title {
@@ -97,78 +89,69 @@ body {
   font-weight: 400;
   line-height: 39.42px;
   text-transform: uppercase;
-  margin-left: 565px;
-  margin-top: -20px; 
+  position: absolute;
+  left: 550px;
+  top: 350px;
 }
 
 
 .menu {
-	height: 100px;
-  color: #000000;
   z-index: 2;
   text-align:  center;
-  margin-top: 230px;
-  opacity: 0.9;    
+  opacity: 0.9;
+  bottom: 100px; 
+  position: relative;
+  top: 224px;   
 }
 
 .menu-list-item {
   height: 45px;
+  width: 250px;
   border-right: 2px solid #eeeeee;
 	padding: 10px;
-	margin-top: 10px;
-  margin-left: -20px;
-  
+	margin-top: 10px; 
 }
 
 .menu-list-itemm {
   height: 45px;
-	padding: 10px;
+  padding: 10px;
+  width: 200px;
 	margin-top: 10px;
-  margin-left: -20px;
+  margin-left: -10px;
   border-left: 2px solid #eeeeee;
-  border-right: 2px solid #eeeeee;  
+  border-right: 2px solid #eeeeee;
+  text-align: center;  
 }
 
-
-
 .menu-list {
+  height: 1000px;
   display: flex;
-	flex-wrap: wrap;
   padding: 10px;
   justify-content: center; 
   list-style-type: none;
 }
 
-
 .menu-link {
-  width: 800px;
-  height: 16px;
   color: #ffffff;
   font-family: Raleway;
   font-size: 18px;
   line-height: 39.42px;
   text-decoration: none;
-  margin-right: 190px;
-  margin-left: 20px;
-  font-stretch: inherit;
-  text-align: center;
-  
 }
 
 .menu-list-item:hover {
-  background: black;color:white;
+  background: #b59f5b;color:white;
 }
 
 .menu-list-itemm:hover {
-  background: black;color:white;
+  background: #b59f5b;color:white;
 }
 
 .mittagsmen {
-  width: 100%;
-  height: 1859px;
+  width: 2000px;
+  height: 1800px;
   background-color: white;
-  margin-top: 75px;
-  z-index: 2; 
+  left: 100px; 
 }
 
 .background {
@@ -205,24 +188,23 @@ body {
   right: 553px;  
 }
 
-
 .metmenu::after {
   content: "";
 	display: block;
 	position: absolute;
 	height: 3px;
 	width: 63px;
-	bottom: -35px;
-	left: 50%;
-	margin-left: -30px;
+  left: 48%;
+  margin-top: 17px;
 	background-color: #f2ab7f;
 }
 
 .card {
   display: flex;
+  position: relative;
   align-items: left ;
   width: 778px;
-  margin-left: 286px;
+  left: 300px;
   margin-right: auto;
   z-index: 2;
 }
@@ -238,33 +220,33 @@ body {
 }
 
 .card-name {
+  position: relative;
   width: 227px;
   height: 55px;
   color: #28272a;
   font-size: 25px;
+  right: 310px;
+  bottom: 40px;
   font-style: italic;
-  margin-top: 50px;
-  margin-right: -150px; 
-  margin-left: -165px;
   font-stretch: inherit;
   font-weight: bold;
 }
 
-
 .card-content {
   content: "";
+  position: relative;
   width: 233px;
   height: 100px;
-  color: #28272a;
+  color: black;
   font-family: Raleway;
   font-size: 14px;
   font-weight: 400;
   line-height: 32.42px;
   text-decoration: none;
-  margin-left: -165px;
   white-space: pre-line;
-  margin-top: -110px;
   font-weight: lighter;
+  right: 320px;
+  bottom: 82px;
 }
 
 .dish-logo {
@@ -272,8 +254,8 @@ body {
   width: 146px;
   height: 110px;
   font-size: 14px;
-  margin-left: 1186px;
-  margin-top: -230px;
+  left: 1187px;
+  top: 980px;
 }
 
 .dish-cost {
@@ -288,8 +270,8 @@ body {
   font-family: "Myriad Pro";
   font-weight: 400;
   font-family: "Didot LH - Italic";
-  margin-left: 1245px;
-  margin-top: -185px;
+  right: 590px;
+  top: 1002px;
 }
 
 .dish-euro {
@@ -301,8 +283,8 @@ body {
   line-height: 15.77px;
   font-family: "Myriad Pro";
   font-weight: 400;
-  margin-left: 1230px;
-  margin-top: -186px;
+  right: 605px;
+  top: 1001px;
 }
 
 .dish-logo1 {
@@ -350,7 +332,6 @@ body {
   z-index: 2;
 }
 
-
 .imagetwo {
   min-width: 71px; 
   min-height: 600px;
@@ -360,45 +341,46 @@ body {
 
 .contenttwo {
   content: "";
-  width: 533px;
-  height: 550px;
+  position: relative;
+  width: 233px;
+  height: 100px;
   color: #28272a;
   font-family: Raleway;
   font-size: 14px;
   font-weight: 400;
   line-height: 32.42px;
   text-decoration: none;
-  margin-left: -165px;
   white-space: pre-line;
-  margin-top: -120px;
   font-weight: lighter;
+  right: 20px;
+  top: 182px;
 }
 
 .card-nametwo {
+  position: absolute;
   width: 227px;
   height: 55px;
   color: #28272a;
   font-size: 25px;
   font-style: italic;
-  margin-top: 140px;
-  margin-right: -155px; 
-  margin-left: -165px;
+  margin-top: 100px;
   font-stretch: inherit;
   font-weight: bold;
-
+  right: 470px;
 }
 
 .cardthree {
   display: flex;
   align-items: left ;
   width: 778px;
-  margin-left: 286px;
+  margin-left: 300px;
   margin-right: auto;
   z-index: 2;
 }
 
 .cardthree:nth-child(n+2) {
-  margin-top: -260px;
+  position: absolute;
+  top: 1640px;
 }
 
 .card-imagethree {
@@ -410,48 +392,45 @@ body {
 .card-namethree {
   width: 227px;
   height: 55px;
+  position: relative;
   color: #28272a;
   font-size: 25px;
   font-style: italic;
-  margin-top: 50px;
-  margin-right: -150px; 
-  margin-left: -75px;
+  margin-top: 10px;
+  right:290px;
   font-stretch: inherit;
   font-weight: bold;
 }
-
 
 .card-contentthree {
   content: "";
   width: 233px;
   height: 100px;
+  position: relative;
   color: #28272a;
   font-family: Raleway;
   font-size: 14px;
   font-weight: 400;
   line-height: 32.42px;
   text-decoration: none;
-  margin-left: -75px; 
+  bottom: 20px;
+  right: 350px;
   white-space: pre-line;
-  margin-top: -110px;
   font-weight: lighter;
 }
 
 .dish-logothree {
-  position: absolute;
+  position: relative;
   width: 146px;
   height: 110px;
   font-size: 14px;
-  margin-left: 1186px;
-  margin-top: -230px;
-}
-
-.dish-logothree:nth-child(n+2) {
-  margin-top: -260px;
+  bottom: 50px;
+  left: 1190px;
+  bottom: 185px;
 }
 
 .dish-costthree {
-  position: absolute;
+  position: relative;
   width: 69px;
   height: 22px;
   color: #282729;
@@ -462,12 +441,12 @@ body {
   font-family: "Myriad Pro";
   font-weight: 400;
   font-family: "Didot LH - Italic";
-  margin-left: 1245px;
-  margin-top: -185px;
+  left: 1250px;
+  bottom: 320px;
 }
 
 .dish-eurothree {
-  position: absolute;
+  position: relative;
   width: 69px;
   height: 22px;
   color: #282729;
@@ -475,13 +454,13 @@ body {
   line-height: 15.77px;
   font-family: "Myriad Pro";
   font-weight: 400;
-  margin-left: 1230px;
-  margin-top: -186px;
+  left: 1230px;
+  bottom: 275px;
 }
 
-
 .allemen {
-  margin-top: 60px;
+  position: relative;
+  bottom: 170px;
   margin-left: 750px;
 }
 
@@ -496,8 +475,9 @@ body {
 }
 
 .aktion {
-  margin-top: 60px;
-  margin-left: 885px;
+  position: absolute;
+  top: 2050px;
+  left:900px;
 }
 
 .aktion::after {
@@ -506,24 +486,21 @@ body {
 	position: absolute;
 	height: 1px;
 	width: 160px;
-	bottom: -1341px;
-	left: 40%;
-	margin-left: -50px;
+  left: 140px;
+  bottom: 45px;
 	background-color: #f2ab7f;
 }
 
 .aktion::before {
   content: "";
 	display: block;
-	position: absolute;
+	position: relative;
 	height: 1px;
 	width: 160px;
-	bottom: -1341px;
-	right: 718px;
-	margin-left: -30px;
+  right: 170px;
+  top:  56px;
 	background-color: #f2ab7f;
 }
-
 
 .paragrapakt {
   width: 140px;
@@ -536,35 +513,40 @@ body {
 
 .beerimg {
   width: 215px;
-  height: 253px;
-  margin-left: 510px;
-  margin-top: 110px;
-  background-image: url("./Saturation_1.png");
+  background-image: url("img/Saturation_1.png");
   background-repeat: no-repeat;
   border: 1px solid #f2ab7f;
+  position: absolute;
+  left: 500px;
+  top: 2195px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+  background-position:left 10px top 10px; 
 }
 
 .pancakesimg {
   width: 215px;
   height: 277px;
-  margin-left: 825px;
-  margin-top: -290px;
   border: 1px solid #f2ab7f;
   padding: 10px;
+  position: relative;
+  left: 840px;
 }
 
 .miximg {
   width: 215px;
   height: 277px;
-  margin-left: 1150px;
-  margin-top: -297px;
   border: 1px solid #f2ab7f;
   padding: 10px;
+  left: 1200px;
+  position: relative;
+  bottom: 300px;
 }
 
 .backgroundfood {
   width: 100%;
-  height: 5118px;
   background-color: #e0dccd;
   margin-top: 95px;
   z-index: 2;
@@ -573,10 +555,11 @@ body {
 .backgroundtwo {
   width: 1302px;
   height: 100px;
+  position: relative;
   background-color: black;
-  margin-left: 15%;
+  margin-left: 25%;
+  bottom: 95px;
   opacity: 0.9;
-  margin-top: -100px;
 }
 
 .metmenutwo {
@@ -585,14 +568,11 @@ body {
   font-style: italic;
   line-height: 19.42px;
   text-transform: capitalize;
-  margin-left: -129px;
+  top: 1px;
   font-weight: lighter;
-  position: absolute;
-  top: 2810px;
-  left: 983px;
-  
+  position: relative;
+  left: 569px; 
 }
-
 
 .metmenutwo::before {
   content: "";
@@ -600,39 +580,43 @@ body {
 	height: 3px;
 	width: 1302px;
   background-color: #f2ab7f;
-  margin-top: 35px;
-  margin-left:-569px;
-  position: absolute;
+  position: relative;
+  right: 569px;
+  top: 45px;
 }
-
 
 .metmenutwo::after {
   content: "";
 	display: inline-block;
 	height: 4px;
 	width: 63px;
-	margin-bottom: 145px;
-  margin-left: 50px;
-  margin-top: 18px;
   background-color: #f2ab7f;
-  position: absolute;
+  position: relative;
+  right: 130px;
+  top: 24px;
 }
 
 .card-descriptionpasta  {
   width: 426px;
   height: 260px;
   background-color: white;
-  display: flex;
-  align-items: left ;
-  margin-left: 306px;
-  margin-right: auto;
-  margin-top: -4900px;
-  z-index: 2;
-  background-image: url("./pr.png");
+  position: absolute;
+  top: 50px;
+  background-image: url("img/pr.png");
   background-repeat: no-repeat;
   background-position: right;
   border: 1px solid #f2ab7f;
-  
+  left: 17%;
+  top: 2750px;
+  padding-top:10px;
+}
+
+.image_maska {
+  z-index: 3;
+  position: absolute;
+  top: 100px;
+  left:50px;
+  background-color: #000000;
 }
 
 .card-namepasta {
@@ -645,44 +629,52 @@ body {
   line-height: 39.42px;
   text-align: center;
   margin-right: 50px;
+  position: absolute;
 }
 
 .card-contenpasta {
   width: 226px;
-  height: 186px;
   color: #28272a;
   font-family: Raleway;
   font-size: 14px;
   font-weight: 400;
   line-height: 21.42px;
-  text-decoration: none;
-  margin-top: 70px;
-  margin-left: -250px;
-  text-align: left;
+}
+
+.paragraphpasta2 {
+  top: 70px;
+  position: relative;
+  left: 10px;
+  text-decoration-line: underline;
+}
+
+.paragraphpasta {
+  top: 40px;
+  position: relative;
+  left: 10px;
 }
 
 .card-beil {
-  margin-left: 860px;
-}
-
-.card-meals {
-  margin-top: 400px;
-  margin-left: -1300px;
+  position: relative;
+  left: 750px;
+  bottom: 185px;
 }
 
 .card-salad {
-  margin-top: 400px;
-  margin-left: 400px;
+  position: relative;
+  left: 750px;
+  bottom: 285px;
 }
 
 .background3 {
   width: 1302px;
   height: 100px;
   background-color: black;
-  position: absolute;
-  margin-top: 800px;
-  margin-left: -20px;
+  position: relative;
+  bottom: 250px;
   opacity: 0.9;
+  right: 2%;
+  margin-top: 30px;
 }
 
 .metmenu3 {
@@ -696,7 +688,6 @@ body {
   position: absolute;
   top: 30px;
   left: 693px;
-  
 }
 
 .metmenu3::before {
@@ -708,9 +699,7 @@ body {
   margin-top: 35px;
   margin-left:-565px;
   position: absolute;
-  
 }
-
 
 .metmenu3::after {
   content: "";
@@ -722,12 +711,12 @@ body {
   margin-top: 18px;
   background-color: #f2ab7f;
   position: absolute;
-  
 }
 
 .page {
-  margin-top: 800px;
-  margin-left: 295px;
+  position: relative;
+  left: 350px;
+  top: 850px;
 }
 
 .field, .button {
@@ -736,11 +725,11 @@ body {
   font-family: inherit;
   background-color: #e0dccd;
   border: 1px solid #f2ab7f;
+  position: relative;
 }
 
 .field-label {
-  white-space: nowrap;
- 
+  display: block;
 }
 
 .textarea {
@@ -753,9 +742,8 @@ body {
 }
 
 .form-group {
-  width: 20px;
-  height: 50px;
-  padding: 20px;
+  display: block;
+  padding-top: 80px;
 	font-family: "OpenSans Bold";
 	font-weight: bold;
 	color: black;
@@ -770,51 +758,130 @@ body {
 	font-weight: bold;
 	color: black;
   cursor: pointer;
-  margin-top: 70px;
+  margin-top: 30px;
   margin-left: 1px;
 }
 
 .network {
   width: 1255px;
   height: 420px;
+  position: relative;
   background-color:white;
   margin-left: auto;
   margin-right: auto;
+  bottom: 150px;
 }
 
 .network-words {
-  width: 453px;
-  height: 84px;
   color: #242426;
   font-family: "Didot LH";
   font-size: 36px;
   font-style: italic;
   line-height: 45.42px;
-  margin-top: -240px;
+  display: block;
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+
+
+.network-words::before {
+  content: "";
+	display: block;
+	position: relative;
+	height: 3px;
+	width: 1255px;
+  background-color: #f2ab7f;
+  right: 100px;
+  top: 120px;  
 }
 
 .network-words2{
   width: 355px;
   height: 20px;
   color: #242426;
+  position: relative;
   font-family: "Didot LH";
   font-size: 18px;
   font-style: italic;
   line-height: 45.42px;
+  left: 100px;
+  top: 200px;
 }
 
 .map {
   width: 493px;
   height: 254px;
   border: 1px solid #f2ab7f;
-  margin-left: 790px;
-  margin-top:-260px;
+  position: absolute;
+  left: 700px;
+  bottom: 100px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px; 
+  
 }
 
 .footer-end {
+  position: absolute;
+  top:4300px;
   width: 100%; 
-  height: 520px;
+  height: 420px;
   background-color:black;
   margin-top: 200px;
 }
+
+.footer-text {
+  width: 116px;
+  height: 56px;
+  position: relative;
+  color: white;
+  font-family: Raleway;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 21.42px;
+  top: 400px;
+  margin-right: 150px;
+}
+
+.footer-text1 {
+  width: 116px;
+  height: 56px;
+  position: relative;
+  color: white;
+  font-family: Raleway;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 21.42px;
+  top: 335px;
+  left: 350px;
+}
+
+.footer-text2 {
+  width: 116px;
+  height: 56px;
+  position: relative;
+  color: white;
+  font-family: Raleway;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 21.42px;
+  top: 270px;
+  left: 750px;
+}
+
+.footer-text3 {
+  width: 116px;
+  height: 56px;
+  position: relative;
+  color: white;
+  font-family: Raleway;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21.42px;
+  top: 210px;
+  left: 1100px;
+}
+
+
 
