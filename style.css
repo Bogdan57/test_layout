@@ -108,15 +108,15 @@ body {
   height: 45px;
   width: 250px;
   border-right: 2px solid #eeeeee;
-	padding: 10px;
-	margin-top: 10px; 
+  padding: 10px;
+  margin-top: 10px; 
 }
 
 .menu-list-itemm {
   height: 45px;
   padding: 10px;
   width: 200px;
-	margin-top: 10px;
+  margin-top: 10px;
   margin-left: -10px;
   border-left: 2px solid #eeeeee;
   border-right: 2px solid #eeeeee;
@@ -179,24 +179,24 @@ body {
 
 .metmenu::before {
   content: "";
-	display: block;
-	position: relative;
-	height: 3px;
-	width: 1302px;
-	bottom: -46px;
+  display: block;
+  position: relative;
+  height: 3px;
+  width: 1302px;
+  bottom: -46px;
   background-color: #f2ab7f;
   right: 553px;  
 }
 
 .metmenu::after {
   content: "";
-	display: block;
-	position: absolute;
-	height: 3px;
-	width: 63px;
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 63px;
   left: 48%;
   margin-top: 17px;
-	background-color: #f2ab7f;
+  background-color: #f2ab7f;
 }
 
 .card {
@@ -493,13 +493,13 @@ body {
 
 .aktion::before {
   content: "";
-	display: block;
-	position: relative;
-	height: 1px;
-	width: 160px;
+  display: block;
+  position: relative;
+  height: 1px;
+  width: 160px;
   right: 170px;
   top:  56px;
-	background-color: #f2ab7f;
+  background-color: #f2ab7f;
 }
 
 .paragrapakt {
@@ -576,9 +576,9 @@ body {
 
 .metmenutwo::before {
   content: "";
-	display: inline-block;
-	height: 3px;
-	width: 1302px;
+  display: inline-block;
+  height: 3px;
+  width: 1302px;
   background-color: #f2ab7f;
   position: relative;
   right: 569px;
@@ -587,9 +587,9 @@ body {
 
 .metmenutwo::after {
   content: "";
-	display: inline-block;
-	height: 4px;
-	width: 63px;
+  display: inline-block;
+  height: 4px;
+  width: 63px;
   background-color: #f2ab7f;
   position: relative;
   right: 130px;
@@ -692,9 +692,9 @@ body {
 
 .metmenu3::before {
   content: "";
-	display: inline-block;
-	height: 3px;
-	width: 1302px;
+  display: inline-block;
+  height: 3px;
+  width: 1302px;
   background-color: #f2ab7f;
   margin-top: 35px;
   margin-left:-565px;
@@ -703,10 +703,10 @@ body {
 
 .metmenu3::after {
   content: "";
-	display: inline-block;
-	height: 4px;
-	width: 63px;
-	margin-bottom: 145px;
+  display: inline-block;
+  height: 4px;
+  width: 63px;
+  margin-bottom: 145px;
   margin-left: 30px;
   margin-top: 18px;
   background-color: #f2ab7f;
@@ -744,19 +744,19 @@ body {
 .form-group {
   display: block;
   padding-top: 80px;
-	font-family: "OpenSans Bold";
-	font-weight: bold;
-	color: black;
+  font-family: "OpenSans Bold";
+  font-weight: bold;
+  color: black;
 }
 
 .button-submit {
-	border: 1px solid #f2ab7f;
-	width: 201px;
-	height: 48px;
-	background-color: #e0dccd;
-	font-family: "OpenSans Bold";
-	font-weight: bold;
-	color: black;
+  border: 1px solid #f2ab7f;
+  width: 201px;
+  height: 48px;
+  background-color: #e0dccd;
+  font-family: "OpenSans Bold";
+  font-weight: bold;
+  color: black;
   cursor: pointer;
   margin-top: 30px;
   margin-left: 1px;
@@ -787,10 +787,10 @@ body {
 
 .network-words::before {
   content: "";
-	display: block;
-	position: relative;
-	height: 3px;
-	width: 1255px;
+  display: block;
+  position: relative;
+  height: 3px;
+  width: 1255px;
   background-color: #f2ab7f;
   right: 100px;
   top: 120px;  
